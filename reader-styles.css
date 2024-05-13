@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: transparent;
+}
+.root--container {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "left main right";
+}
+.booklet-controls--container {
+  grid-area: "main";
+}
+.booklet--container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas:
+    "left right";
+  height: 90%;
+}
+.booklet--left--container {
+  grid-area: "left";
+}
+.booklet--right--container {
+  grid-area: "right";
+}
+.controls--container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas:
+    "left right";
+}
+#control-button--left {
+  grid-area: "left";
+  justify-self: end;
+}
+#control-button--right {
+  grid-area: "right";
+  justify-self: start;
+}
+#booklet--left {
+  background-color: green;
+  height: 100%;
+}
+#booklet--right {
+  background-color: red;
+  height: 100%;
+}
