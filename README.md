@@ -1,7 +1,7 @@
 # script reader
 ## by david allen stephan marino
 ### description
-The goal of this is to create an organized and efficient environment to read scripts while watching a movie/film 🎥
+The goal of this is to create an organized and efficient environment to read screenplays while watching a movie/film 🎥
 ### status
 🚧 under contstruction 🚧 as of 05/13/2024
 ### current view
